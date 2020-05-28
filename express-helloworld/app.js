@@ -5,6 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
 
+// Add Mars for testing
 app.get('/mars', function (req, res) {
   res.send('Hello Mars!\n');
 }); 
